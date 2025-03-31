@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SustainLabel</title>
+    <link rel="stylesheet" href="..\css\style.css">
+    <script defer src="..\js\script.js"></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <img src="../images/Logo.jpeg" alt="SustainLabel Logo" class="header-image">
+            <h1 class="brand-name">SustainLabel</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <main class="contact-container">
+        <h1>Get in Touch with Us</h1>
+        <p>We’d love to hear from you!</p>
+
+        <section class="contact-details">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:hi@sustainlabel.in">hi@sustainlabel.in</a></p>
+            <p>Phone: <span id="phone-number">(Mobile Number)</span></p>
+            <p>Instagram: <a href="https://www.instagram.com/sustainlabel" target="_blank">sustainlabel.in</a></p>
+        </section>
+
+        <!-- General Inquiry Form -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="inquiry-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="type">You Are:</label>
+                <select id="type">
+                    <option value="Individual">Individual</option>
+                    <option value="Organisation">Organisation</option>
+                    <option value="Company">Company</option>
+                </select>
+
+                <label for="inquiry-type">Type of Inquiry:</label>
+                <select id="inquiry-type">
+                    <option value="bulk-order">Placing a Bulk Order</option>
+                    <option value="collaborate">Looking to Collaborate</option>
+                    <option value="work">Looking to Work with SL</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Collaboration Form -->
+        <section class="collaboration-form">
+            <h2>Collaboration Form</h2>
+            <p>We’re happy to know you’re looking for a possible collaboration. Please provide your details, and we’ll reach out to you soon.</p>
+            <form id="collaboration-form">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" required>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" required>
+
+                <label for="org-name">Organisation Name:</label>
+                <input type="text" id="org-name">
+
+                <label for="website">Link to Website (Optional):</label>
+                <input type="url" id="website">
+
+                <label for="social-media">Social Media Pages (Optional):</label>
+                <input type="text" id="social-media">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" required>
+
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" required>
+
+                <label for="collab-type">Collaboration Format:</label>
+                <select id="collab-type">
+                    <option value="sourcing">Sourcing</option>
+                    <option value="design">Design</option>
+                    <option value="production">Production</option>
+                    <option value="sales">Sales</option>
+                    <option value="other">Others</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SustainLabel. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
